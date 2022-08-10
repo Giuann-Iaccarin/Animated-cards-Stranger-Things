@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    background: linear-gradient( red, #000);
+    height: 718px;
+} 
+.main {
+    display: flex;
+}
+.container-cards {
+    width: 100%;
+    display: flex;
+    margin-top: 14%;
+}
+.card {
+    margin-left: 2%;
+    width: 5%;
+    height: 335px;
+    background-size: cover;
+    border: 1px black solid;
+    border-radius: 50px;
+}
+.card.Eleven {
+    background-image: url('undici1.jpg');
+    margin-left: 32.5%;
+}
+.card.Mike {
+    background-image: url('mike1.jpg');
+}
+.card.Dustin {
+    background-image: url('dustin1.jpg');
+}
+.card.Max {
+    background-image: url('max1.jpg');
+}
+.card.Eddie {
+    background-image: url('eddie1.jpg');
+}
+
+.card.Eleven:hover {
+    width: 20%;
+    background-image: url('undici.jpg');
+}
+.card.Eddie:hover {
+    width: 20%;
+    background-image: url('eddie.jpg');
+}
+.card.Dustin:hover {
+    width: 20%;
+    background-image: url('dustin2.jpg');
+}
+.card.Max:hover {
+    width: 20%;
+    background-image: url('max.jpg');
+}
+.card.Mike:hover {
+    width: 20%;
+    background-image: url('mike2.jpg');
+}
+
+.card video {
+    border-radius: 50px;
+    object-fit: cover;
+    width: 252px;
+    height: 333px;
+    position: absolute;
+    display: none;
+}
+
+.contaniner-imgtext {
+    display: flex;
+    align-items: center;
+}
+.contain-contaimg{
+    width: 100%;
+}
+.contain-containtxt{
+    width: 0%;
+    display: none;
+}
+.ciao {
+    transform: translate(0, 480%);
+}
+.contain-img {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contain-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.contain-text {
+    color: #fff;
+}
+.card.Eleven:hover .contain-containtxt {
+    width: 65%;
+    display: block;
+}
+.card.Eleven:hover .contain-contaimg {
+    width: 30%;
+}
+.card.Eleven:hover .ciao {
+    transform: translate(0, 250%);
+}
+
+.card.Dustin:hover .contain-containtxt {
+    width: 65%;
+    display: block;
+}
+.card.Dustin:hover .contain-contaimg {
+    width: 30%;
+}
+.card.Dustin:hover .ciao {
+    transform: translate(0, 200%);
+}
+
+.card.Mike:hover .contain-containtxt {
+    width: 65%;
+    display: block;
+}
+.card.Mike:hover .contain-contaimg {
+    width: 30%;
+}
+.card.Mike:hover .ciao {
+    transform: translate(0, 200%);
+}
+
+.card.Max:hover .contain-containtxt {
+    width: 65%;
+    display: block;
+}
+.card.Max:hover .contain-contaimg {
+    width: 30%;
+}
+.card.Max:hover .ciao {
+    transform: translate(0, 200%);
+}
+
+.card.Eddie:hover .contain-containtxt {
+    width: 65%;
+    display: block;
+}
+.card.Eddie:hover .contain-contaimg {
+    width: 30%;
+}
+.card.Eddie:hover .ciao {
+    transform: translate(0, 250%);
+}
+
+.card.Eleven:hover video {
+    display: block;
+}
+.card.Eddie:hover video {
+    display: block;
+}
+.card.Mike:hover video {
+    display: block;
+}
+.card.Max:hover video {
+    display: block;
+}
+.card.Dustin:hover video {
+    display: block;
+}
+.logo {
+    margin-left: 35%;
+}
